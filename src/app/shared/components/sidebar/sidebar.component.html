@@ -1,0 +1,29 @@
+<mat-nav-list>
+    <div class="profile-card">
+        <div class="header">
+            <h2>Mariam Montaser</h2>
+            <h4>mariam@gmail.com</h4>
+        </div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR0czMYF62grYSw40G-nXrMZVm3RpzQI91ub4AR-C6HaqqfjRb7&usqp=CAU"
+            alt="profile">
+    </div>
+
+    <mat-divider></mat-divider>
+
+    <h2 matSubheader>Pages</h2>
+    <a mat-list-item routerLink="/" routerLinkActive="list-item-active">Dashboard</a>
+    <a mat-list-item routerLink="/posts" routerLinkActive="list-item-active">Posts</a>
+    <a mat-list-item routerLink="/articles" routerLinkActive="list-item-active">Articles</a>
+
+    <mat-divider></mat-divider>
+
+    <h2 matSubheader>Tools</h2>
+    <a mat-list-item routerLink="/contacts" routerLinkActive="list-item-active">
+        <mat-icon>import_contacts</mat-icon>
+        Contacts
+    </a>
+    <a mat-list-item routerLink="/contacts" routerLinkActive="list-item-active">
+        <mat-icon>contact_phone</mat-icon>
+        Leads
+    </a>
+</mat-nav-list>
